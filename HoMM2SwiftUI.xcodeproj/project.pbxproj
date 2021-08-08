@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		480B9F7E26C0509E0017512C /* SuccessionsKrigen in Frameworks */ = {isa = PBXBuildFile; productRef = 480B9F7D26C0509E0017512C /* SuccessionsKrigen */; };
 		48DD137526B874DE00C05230 /* HoMM2SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DD137426B874DE00C05230 /* HoMM2SwiftUIApp.swift */; };
 		48DD137726B874DE00C05230 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DD137626B874DE00C05230 /* ContentView.swift */; };
 		48DD137926B874E000C05230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DD137826B874E000C05230 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		480B9F7C26C050840017512C /* SuccessionsKrigen */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SuccessionsKrigen; path = ../SuccessionsKrigen; sourceTree = "<group>"; };
 		48DD137126B874DE00C05230 /* HoMM2SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoMM2SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DD137426B874DE00C05230 /* HoMM2SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoMM2SwiftUIApp.swift; sourceTree = "<group>"; };
 		48DD137626B874DE00C05230 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,17 +30,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				480B9F7E26C0509E0017512C /* SuccessionsKrigen in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		484700A726C0179200BEE88F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				480B9F7C26C050840017512C /* SuccessionsKrigen */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		48DD136826B874DE00C05230 = {
 			isa = PBXGroup;
 			children = (
 				48DD137326B874DE00C05230 /* HoMM2SwiftUI */,
 				48DD137226B874DE00C05230 /* Products */,
+				484700A726C0179200BEE88F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +99,9 @@
 			dependencies = (
 			);
 			name = HoMM2SwiftUI;
+			packageProductDependencies = (
+				480B9F7D26C0509E0017512C /* SuccessionsKrigen */,
+			);
 			productName = HoMM2SwiftUI;
 			productReference = 48DD137126B874DE00C05230 /* HoMM2SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +129,8 @@
 				Base,
 			);
 			mainGroup = 48DD136826B874DE00C05230;
+			packageReferences = (
+			);
 			productRefGroup = 48DD137226B874DE00C05230 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -329,6 +346,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		480B9F7D26C0509E0017512C /* SuccessionsKrigen */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SuccessionsKrigen;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 48DD136926B874DE00C05230 /* Project object */;
 }
