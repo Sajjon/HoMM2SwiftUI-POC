@@ -32,7 +32,7 @@ extension IconView {
 // MARK: From Icon/Sprite
 extension IconView {
     
-    static let defaultScale: CGFloat = 1
+    static let defaultScale: CGFloat = 0.3
     static let defaultOrientation: Image.Orientation = .up
     
     
