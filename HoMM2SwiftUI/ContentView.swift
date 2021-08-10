@@ -12,7 +12,7 @@ import SuccessionsKrigen
 struct ContentView: View {
     
     var body: some View {
-        IconView(icon: .PHOENIX)
+        IconView(icon: .phoenix)
     }
 }
 

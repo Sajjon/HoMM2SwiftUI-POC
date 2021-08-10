@@ -53,6 +53,7 @@ public extension ImageLoader {
         
         let sprites = aggFile.spritesForCreature(icon)
         let sprite = selectSprite(sprites)
+        
       
         return imageFromSprite(sprite)
     }
